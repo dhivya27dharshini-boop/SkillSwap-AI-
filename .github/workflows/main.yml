@@ -36,7 +36,7 @@ jobs:
 
       - name: Build frontend
         working-directory: frontend
-        run: npm run build -- --base=/SkillSwap-AI/
+        run: npm run build
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
